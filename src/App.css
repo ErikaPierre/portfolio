@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  width: 1920px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+a {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+.SkillTab,
+.div_header_projet,
+.wrapper {
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+.div_header_projet {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.div_input_projet {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.header_general_button button,
+.div_section_button button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  padding: 2px 7px 13px 8px;
+  border-bottom: 1px solid #4ee1a0;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
+}
+
+.projet_card_title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.projet_card_img {
+  width: 510px;
+  height: 380px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.projet_card_img:hover,
+.projet_skills p:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.SkillTab {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 100px;
+  margin-bottom: 156px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 150px;
+}
+
+.SkillTabTilte {
+  border-bottom: 1px solid white;
+  margin-bottom: 50px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.header {
+  background-image: url("images/Picture → desktop_image-6267fc46.jpg.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  margin-right: 165px;
+  margin-left: 165px;
+}
+
+.header_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 114px;
+  margin-top: 30px;
+}
+
+.header_logos {
+  display: flex;
+  gap: 32px;
+}
+
+.header_general_Text_1 {
+  margin-bottom: 30px;
+}
+
+.header_general_Text_2 {
+  margin-bottom: 100px;
+}
+
+.header_general_button {
+  margin-bottom: 221px;
+}
+
+.div_contact {
+  margin-top: 400px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #242424;
+  padding: 84px 84px 100px 84px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.div_section_contact {
+  width: 429px;
+}
+
+.div_section_contact p {
+  line-height: 28px;
+}
+
+form {
+  width: 445px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0px;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+textarea {
+  background: none;
+  border: none;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.footer {
+  background-color: #242424;
+}
+
+.footer_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 165px;
+}
+
+.footer_line h2 {
+  align-items: center;
+}
+
+.div_section_button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
