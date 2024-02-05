@@ -1,6 +1,5 @@
 function Skill() {
   return (
-
     <>
       <h1 className="SkillTabTilte">Skills</h1>
 
@@ -23,7 +22,6 @@ function Skill() {
           <p>React</p>
         </div>
       </div>
-      
     </>
   );
 }

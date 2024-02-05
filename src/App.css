@@ -39,6 +39,19 @@ a {
   align-items: center;
   color: white;
   font-size: 20px;
+  gap: 70px;
+}
+
+.div_input_projet button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.div_input_projet button:hover {
+  color: #4ee1a0;
 }
 
 .header_general_button button,

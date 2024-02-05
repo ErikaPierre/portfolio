@@ -55,17 +55,16 @@ const projets = [
 ];
 
 function App() {
-  const [projetFilter, setProjetFilter] = useState([]);
+  const [projetFilter, setProjetFilter] = useState(projets);
   const [choiceLangages, setNewChoice] = useState("");
 
   function filteredProjet(e) {
     e.preventDefault();
-    console.log(choiceLangages);
     setProjetFilter(
-      projets.filter((projets) =>
-        projets.langages.map((element) => {
-          element === choiceLangages;
-        })
+      projets.filter((projet) =>
+        projet.langages
+          .map((langage) => langage.toLowerCase())
+          .includes(choiceLangages.toLowerCase())
       )
     );
     setNewChoice("");
@@ -85,7 +84,9 @@ function App() {
             value={choiceLangages}
             onChange={(e) => setNewChoice(e.target.value)}
           />
-          <button onClick={filteredProjet}>envoyer</button>
+          <button className="div_projet_button" onClick={filteredProjet}>
+            Choisir
+          </button>
         </div>
       </div>
 
