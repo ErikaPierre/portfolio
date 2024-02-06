@@ -1,54 +1,65 @@
 import { useState } from "react";
 import "./App.css";
+
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Projet from "./components/Projet";
 import Skill from "./components/Skill";
 
+import airbnb from "./assets/images/airbnb-clone.jpg";
+import portfolio from "./assets/images/Section → portfolio-website-5e5ff6dc.jpg.jpg";
+import Pomodoro from "./assets/images/Section → Pomodoro-app-bdd41802.jpg.jpg";
+import markdown from "./assets/images/Section → In-browser-markdown-editor-5dffac4c.jpg.jpg";
+import rest from "./assets/images/Section → REST-Countries-API-3c61139c.jpg.jpg";
+import Calculator from "./assets/images/Section → Calculator-App-671f73d2.jpg.jpg";
+import Drum from "./assets/images/Drum-machine-39e3fb93.jpg.jpg";
+import Space from "./assets/images/Space-tourism-website-2d4e3d9a.jpg.jpg";
+import Random from "./assets/images/Section → Random-quote-app-6953f22c.jpg.jpg";
+
 const projets = [
   {
-    imageUrl: "images/airbnb-clone-2023-360e5996.jpg.jpg",
+    imageUrl: airbnb,
     name: "AIRBNB-CLONE-2023",
     langages: ["TAILWIND", "TYPESCRIPT", "REACT", "MONGODB"],
   },
   {
-    imageUrl: "images/Section → portfolio-website-5e5ff6dc.jpg.jpg",
+    imageUrl: portfolio,
     name: "PORTFOLIO",
     langages: ["TYPESCRIPT", "REACT"],
   },
   {
-    imageUrl: "images/Section → Pomodoro-app-bdd41802.jpg.jpg",
+    imageUrl: Pomodoro,
     name: "POMODORO APP",
     langages: ["TAILWIND", "TYPESCRIPT", "REACT"],
   },
   {
-    imageUrl: "images/Section → In-browser-markdown-editor-5dffac4c.jpg.jpg",
+    imageUrl: markdown,
     name: "EDITEUR MARKDOWN",
     langages: [" SCSS", "TYPESCRIPT", "REACT"],
   },
   {
-    imageUrl: "images/Section → REST-Countries-API-3c61139c.jpg.jpg",
+    imageUrl: rest,
     name: "REST COUNTRIES API",
     langages: ["CSS", "TYPESCRIPT", "VUE"],
   },
   {
-    imageUrl: "images/Section → Calculator-App-671f73d2.jpg.jpg",
+    imageUrl: Calculator,
     name: "APPLICATION DE CALCULATRICE",
     langages: ["SCSS", "TYPESCRIPT", "VUE"],
   },
   {
-    imageUrl: "images/Drum-machine-39e3fb93.jpg.jpg",
+    imageUrl: Drum,
     name: "DRUM MACHINE",
     langages: ["STYLED-COMPONENTS", "TYPESCRIPT", "REACT"],
   },
   {
-    imageUrl: "images/Space-tourism-website-2d4e3d9a.jpg.jpg",
+    imageUrl: Space,
     name: "SITE DE TOURISME DANS L'ESPACE",
     langages: ["HTML", "CSS", "TYPESCRIPT"],
   },
   {
-    imageUrl: "images/Section → Random-quote-app-6953f22c.jpg.jpg",
+    imageUrl: Random,
     name: "RANDOM QUOTE APP",
     langages: ["CSS", "REACT", "API"],
   },
